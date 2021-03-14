@@ -7,24 +7,24 @@ beforeEach(function() {
 
 describe('basic math functions', function () {
   it("'add()' is a valid function", function() {
-    expect(add).toExist
+    expect(a+b).toExist
   })
 
   it("'subtract()' is a valid function", function() {
-    expect(subtract).toExist
+    expect(a-b).toExist
   })
 
   it("'multiply()' is a valid function", function() {
-    expect(multiply).toExist
+    expect(a.b).toExist
   })
 
   it("'divide()' is a valid function", function() {
-    expect(divide).toExist
+    expect(a-b).toExist
   })
 
-  it('add(a, b) adds two numbers and returns the result', function() {
-    expect(add(a, b)).toEqual(a + b)
-  })
+  it('add(a, b) adds two numbers and returns the result', function () {
+      expect(add(a, b)).toEqual(a + b)
+    })
   
   it('subtract(a, b) subtracts b from a and returns the result', function() {
     expect(subtract(a, b)).toEqual(a - b)
